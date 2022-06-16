@@ -1,0 +1,15 @@
+{
+  "RoseDiagram" : {
+
+    "Frame" : {
+      "Line" : {
+        "Visible" : false,
+        "Color" : "#000000",
+        "Width" : 1,
+        "Style" : "Solid",
+        "Transparency" : 0
+      }
+    }
+
+  }
+}

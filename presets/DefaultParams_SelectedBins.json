@@ -1,0 +1,21 @@
+{
+  "RoseDiagram" : {
+
+    "SelectedBins" : {
+      "Line" : {
+        "Color" : "#FF0000",
+        "Width" : 1,
+        "Style" : "Solid",
+        "Transparency" : 0
+      },
+      "Fill" : {
+        "BackgroundColor" : "#FFA07A",
+        "FillTransparency" : 80,
+        "SolidFill" : true,
+        "HatchStyle" : "30Percent",
+        "HatchColor" : "#FF0000"
+      }
+    }
+
+  }
+}

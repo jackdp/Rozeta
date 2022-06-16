@@ -1,0 +1,133 @@
+{
+  "RoseDiagram" : {
+    "Info" : {
+      "FormatVersion" : "1.0",
+      "Application" : "Rozeta 3.0  [32-bit]"
+    },
+    "Background" : {
+      "Color" : "#000000",
+      "Transparency" : 0
+    },
+    "Frame" : {
+      "Line" : {
+        "Visible" : false,
+        "Color" : "#FFFFFF",
+        "Width" : 1.0000000000000000E+000,
+        "Style" : "Solid",
+        "Transparency" : 0
+      }
+    },
+    "Circles" : {
+      "Count" : 9,
+      "Line" : {
+        "Visible" : true,
+        "Color" : "#696969",
+        "Width" : 1.0000000000000000E+000,
+        "Style" : "Dash",
+        "Transparency" : 0
+      }
+    },
+    "Radii" : {
+      "Line" : {
+        "Visible" : true,
+        "Color" : "#696969",
+        "Width" : 1.0000000000000000E+000,
+        "Style" : "Dash",
+        "Transparency" : 0
+      }
+    },
+    "Axes" : {
+      "Line" : {
+        "Visible" : true,
+        "Color" : "#C0C0C0",
+        "Width" : 1.0000000000000000E+000,
+        "Style" : "Solid",
+        "Transparency" : 0
+      },
+      "CaptionType" : "degrees",
+      "Text" : {
+        "Visible" : true,
+        "Font" : {
+          "Name" : "Verdana",
+          "Size" : 9,
+          "Color" : "#C0C0C0",
+          "Style" : "",
+          "Transparency" : 0
+        }
+      },
+      "PercentMarkers" : {
+        "Visible" : true,
+        "Font" : {
+          "Name" : "Verdana",
+          "Size" : 9,
+          "Color" : "#C0C0C0",
+          "Style" : "",
+          "Transparency" : 0
+        },
+        "Color" : "#000000",
+        "Width" : 5,
+        "Transparency" : 0
+      }
+    },
+    "Pies" : {
+      "Line" : {
+        "Color" : "#696969",
+        "Width" : 1.0000000000000000E+000,
+        "Style" : "Solid",
+        "Transparency" : 0
+      },
+      "Fill" : {
+        "BackgroundColor" : "#808080",
+        "FillTransparency" : 40,
+        "SolidFill" : false,
+        "HatchStyle" : "30Percent",
+        "HatchColor" : "#696969"
+      }
+    },
+    "SelectedBins" : {
+      "Line" : {
+        "Color" : "#FF0000",
+        "Width" : 1.0000000000000000E+000,
+        "Style" : "Solid",
+        "Transparency" : 0
+      },
+      "Fill" : {
+        "BackgroundColor" : "#FFA07A",
+        "FillTransparency" : 80,
+        "SolidFill" : false,
+        "HatchStyle" : "30Percent",
+        "HatchColor" : "#FF0000"
+      }
+    },
+    "Title" : {
+      "Text" : {
+        "Visible" : true,
+        "Font" : {
+          "Name" : "Verdana",
+          "Size" : 12,
+          "Color" : "#000000",
+          "Style" : "bold",
+          "Transparency" : 0
+        },
+        //"Text" : "",
+        "PosX" : 3.0000000000000000E+000,
+        "PosY" : 3.0000000000000000E+000
+      }
+    },
+    "Description" : {
+      "Text" : {
+        "Visible" : true,
+        "Font" : {
+          "Name" : "Segoe UI",
+          "Size" : 10,
+          "Color" : "#000000",
+          "Style" : "",
+          "Transparency" : 0
+        },
+        //"Text" : "",
+        "PosX" : 3.0000000000000000E+000,
+        "PosY" : 1.0000000000000000E+001
+      }
+    }
+  }
+}

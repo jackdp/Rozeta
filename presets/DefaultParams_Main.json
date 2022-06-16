@@ -1,0 +1,16 @@
+{
+  "RoseDiagram" : {
+
+    "Main" : {
+      "Radius" : 100,
+      "Margin" : 5,
+      "ClassSize" : 10,
+      "DiagramType" : "rose",
+      "DrawPolygonInnerLines" : true,
+      "MeasurementType" : "azimuths",
+      "CentralSymmetry" : false,
+      "LinearMeasurementsFixMode" : "normalize_180"
+    }
+
+  }
+}

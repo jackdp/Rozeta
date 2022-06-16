@@ -1,0 +1,36 @@
+{
+  "RoseDiagram" : {
+
+    "Title" : {
+      "Text" : {
+        "Visible" : true,
+        "Font" : {
+          "Name" : "Verdana",
+          "Size" : 12,
+          "Color" : "#000000",
+          "Style" : "bold",
+          "Transparency" : 0
+        },
+        //"Text" : "",
+        "PosX" : 3.0000000000000000E+000,
+        "PosY" : 3.0000000000000000E+000
+      }
+    },
+    "Description" : {
+      "Text" : {
+        "Visible" : true,
+        "Font" : {
+          "Name" : "Segoe UI",
+          "Size" : 10,
+          "Color" : "#000000",
+          "Style" : "",
+          "Transparency" : 0
+        },
+        //"Text" : "",
+        "PosX" : 3.0000000000000000E+000,
+        "PosY" : 1.0000000000000000E+001
+      }
+    }
+
+  }
+}

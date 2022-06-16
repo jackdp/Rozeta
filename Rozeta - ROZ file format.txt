@@ -1,0 +1,127 @@
+﻿
+Rozeta 3.0
+
+ROZ file: JSON, UTF-8 without BOM
+ROZX: zipped ROZ file
+ROZT: template (ROZ file without measurements)
+
+Implementation: JPL.RoseDiag.DataFile.pas
+
+=============================================================
+
+  Info
+    FormatVersion
+    Application
+
+  Metadata
+    Author
+    Subject
+    Description
+
+  Main
+    Radius
+    Margin
+    ClassSize
+    DiagramType: rose, polygon
+    DrawPolygonInnerLines
+    MeasurementType: azimuths, linear
+    CentralSymmetry
+    LinearMeasurementsFixMode: normalize_180, remove
+
+  Background
+    Color
+    Transparency
+
+  Frame
+    Line
+      Visible
+      Color
+      Width
+      Style
+      Transparency
+
+  Circles
+    Count
+    Line
+      Visible
+      Color
+      Width
+      Style
+      Transparency
+
+  Radii
+    Line
+      Visible
+      Color
+      Width
+      Style
+      Transparency
+
+  Axes
+    Line
+      Visible
+      Color
+      Width
+      Style
+      Transparency
+    CaptionType: degrees, symbols
+    Text
+      Visible
+      Font
+        Name
+        Size
+        Color
+        Style
+        Transparency
+    PercentMarkers
+      Visible
+      Font
+        Name
+        Size
+        Color,
+        Style",
+        Transparency
+      Color
+      Width
+      Transparency
+
+  Pies
+    Line
+      Color
+      Width
+      Style
+      Transparency
+    Fill
+      BackgroundColor
+      FillTransparency
+      SolidFill
+      HatchStyle
+      HatchColor
+
+  SelectedBins
+    Line
+      Color
+      Width
+      Style
+      Transparency
+    Fill
+      BackgroundColor
+      FillTransparency
+      SolidFill
+      HatchStyle
+      HatchColor
+
+  Title
+    Text
+      Visible
+      Font
+        Name
+        Size
+        Color
+        Style
+        Transparency
+      Text
+      PosX
+      PosY
+
+  Measurements - array of float values

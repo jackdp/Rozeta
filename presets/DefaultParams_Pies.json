@@ -1,0 +1,21 @@
+{
+  "RoseDiagram" : {
+
+    "Pies" : {
+      "Line" : {
+        "Color" : "#1E90FF",
+        "Width" : 1,
+        "Style" : "Solid",
+        "Transparency" : 0
+      },
+      "Fill" : {
+        "BackgroundColor" : "#87CEFA",
+        "FillTransparency" : 40,
+        "SolidFill" : false,
+        "HatchStyle" : "30Percent",
+        "HatchColor" : "#1E90FF"
+      }
+    }
+
+  }
+}

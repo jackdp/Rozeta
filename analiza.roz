@@ -1,0 +1,193 @@
+{
+  "RoseDiagram" : {
+    "Info" : {
+      "FormatVersion" : "1.0",
+      "Application" : "Rozeta 3.0  [32-bit]"
+    },
+    "Metadata" : {
+      "Author" : "Jacek Pazera",
+      "Subject" : "Analiza mezostrukturalna, praca nr 2",
+      "Description" : "UŚ WNoZ\r\nKGP, GPO-1\r\n2001 rok\r\n"
+    },
+    "Main" : {
+      "Radius" : 100,
+      "Margin" : 8,
+      "ClassSize" : 10,
+      "DiagramType" : "rose",
+      "DrawPolygonInnerLines" : true,
+      "MeasurementType" : "azimuths",
+      "CentralSymmetry" : true,
+      "LinearMeasurementsFixMode" : "normalize_180"
+    },
+    "Background" : {
+      "Color" : "#FFFFFF",
+      "Transparency" : 0
+    },
+    "Frame" : {
+      "Line" : {
+        "Visible" : false,
+        "Color" : "#000000",
+        "Width" : 1.0000000000000000E+000,
+        "Style" : "Solid",
+        "Transparency" : 0
+      }
+    },
+    "Circles" : {
+      "Count" : 9,
+      "Line" : {
+        "Visible" : true,
+        "Color" : "#C0C0C0",
+        "Width" : 1.0000000000000000E+000,
+        "Style" : "Dash",
+        "Transparency" : 0
+      }
+    },
+    "Radii" : {
+      "Line" : {
+        "Visible" : true,
+        "Color" : "#C0C0C0",
+        "Width" : 1.0000000000000000E+000,
+        "Style" : "Dash",
+        "Transparency" : 0
+      }
+    },
+    "Axes" : {
+      "Line" : {
+        "Visible" : true,
+        "Color" : "#000000",
+        "Width" : 1.0000000000000000E+000,
+        "Style" : "Solid",
+        "Transparency" : 0
+      },
+      "CaptionType" : "degrees",
+      "Text" : {
+        "Visible" : true,
+        "Font" : {
+          "Name" : "Verdana",
+          "Size" : 9,
+          "Color" : "#000000",
+          "Style" : "",
+          "Transparency" : 0
+        }
+      },
+      "PercentMarkers" : {
+        "Visible" : true,
+        "Font" : {
+          "Name" : "Verdana",
+          "Size" : 9,
+          "Color" : "#000000",
+          "Style" : "",
+          "Transparency" : 0
+        },
+        "Color" : "#000000",
+        "Width" : 5,
+        "Transparency" : 0
+      }
+    },
+    "Pies" : {
+      "Line" : {
+        "Color" : "#1E90FF",
+        "Width" : 1.0000000000000000E+000,
+        "Style" : "Solid",
+        "Transparency" : 0
+      },
+      "Fill" : {
+        "BackgroundColor" : "#87CEFA",
+        "FillTransparency" : 40,
+        "SolidFill" : false,
+        "HatchStyle" : "30Percent",
+        "HatchColor" : "#1E90FF"
+      }
+    },
+    "SelectedBins" : {
+      "Line" : {
+        "Color" : "#FF0000",
+        "Width" : 1.0000000000000000E+000,
+        "Style" : "Solid",
+        "Transparency" : 0
+      },
+      "Fill" : {
+        "BackgroundColor" : "#FFA07A",
+        "FillTransparency" : 80,
+        "SolidFill" : true,
+        "HatchStyle" : "30Percent",
+        "HatchColor" : "#FF0000"
+      }
+    },
+    "Title" : {
+      "Text" : {
+        "Visible" : true,
+        "Font" : {
+          "Name" : "Verdana",
+          "Size" : 12,
+          "Color" : "#000000",
+          "Style" : "bold",
+          "Transparency" : 0
+        },
+        "Text" : "Analiza mezostrukturalna\r\npraca nr 2",
+        "PosX" : 3.0000000000000000E+000,
+        "PosY" : 3.0000000000000000E+000
+      }
+    },
+    "Description" : {
+      "Text" : {
+        "Visible" : true,
+        "Font" : {
+          "Name" : "Segoe UI",
+          "Size" : 10,
+          "Color" : "#000000",
+          "Style" : "",
+          "Transparency" : 0
+        },
+        "Text" : "UŚ WNoZ\r\nKGP, GPO-1\r\n2001",
+        "PosX" : 3.0000000000000000E+000,
+        "PosY" : 2.0000000000000000E+001
+      }
+    },
+    "Measurements" : [
+      1.0000000000000000E+001,
+      0.0000000000000000E+000,
+      1.0000000000000000E+001,
+      3.0000000000000000E+001,
+      5.0000000000000000E+001,
+      5.0000000000000000E+001,
+      6.5000000000000000E+001,
+      1.0500000000000000E+002,
+      1.3000000000000000E+002,
+      1.3000000000000000E+002,
+      1.3500000000000000E+002,
+      1.4500000000000000E+002,
+      1.4500000000000000E+002,
+      1.4500000000000000E+002,
+      1.5500000000000000E+002,
+      1.5500000000000000E+002,
+      1.6500000000000000E+002,
+      1.6500000000000000E+002,
+      1.8000000000000000E+002,
+      2.1000000000000000E+002,
+      2.3000000000000000E+002,
+      2.5000000000000000E+002,
+      2.4500000000000000E+002,
+      2.5000000000000000E+002,
+      2.5500000000000000E+002,
+      2.8500000000000000E+002,
+      2.9500000000000000E+002,
+      3.0000000000000000E+002,
+      3.0500000000000000E+002,
+      3.1000000000000000E+002,
+      3.0500000000000000E+002,
+      3.2000000000000000E+002,
+      3.2000000000000000E+002,
+      3.2000000000000000E+002,
+      3.3000000000000000E+002,
+      3.3000000000000000E+002,
+      3.2500000000000000E+002,
+      3.3500000000000000E+002,
+      3.5000000000000000E+002,
+      3.5000000000000000E+002,
+      3.5000000000000000E+002,
+      3.5500000000000000E+002,
+      3.5500000000000000E+002
+    ]
+  }
+}

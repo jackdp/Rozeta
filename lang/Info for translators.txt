@@ -1,0 +1,27 @@
+﻿
+////////////////////////////////////////////////////////////////////////////////
+First of all, a big thanks to all translators! You are doing a great job.
+
+If I did not respond to the email, it was most likely automatically deleted by the spam filter.
+Please let me know then via Github, Facebook or Twitter.
+I get about 100 emails every day (95% of which are spam).
+////////////////////////////////////////////////////////////////////////////////
+
+Rozeta
+https://www.pazera-software.com/products/rozeta/
+https://github.com/jackdp/Rozeta
+
+
+Tips
+
+  1. All language files must be placed in the "lang" directory.
+
+  2. Encoding of language files: UTF-8 with BOM.
+
+  3. The current translation can be changed from the menu "Language".
+
+  4. To reload the translation from the currently selected language file, press Ctrl+Shift+F12
+
+  5. Closing the program by pressing Esc: in the configuration file "Rozeta32.ini" (or "Rozeta64.ini"), in the [MAIN] section add line: EscExit=1
+
+--------------------------------------------------------------------------------

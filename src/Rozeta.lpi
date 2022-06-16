@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="12"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <CompatibilityMode Value="True"/>
+      </Flags>
+      <SessionStorage Value="InProjectDir"/>
+      <Title Value="Rozeta"/>
+      <Scaled Value="True"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <XPManifest>
+        <DpiAware Value="True"/>
+      </XPManifest>
+      <Icon Value="0"/>
+    </General>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <MajorVersionNr Value="1"/>
+      <StringTable Comments="https://www.pazera-software.com" CompanyName="Jacek Pazera" FileDescription="Rozeta" InternalName="Rozeta" LegalCopyright="Copyleft Jacek Pazera" LegalTrademarks="Jacek Pazera" OriginalFilename="Rozeta.exe" ProductName="Rozeta" ProductVersion="3.0"/>
+    </VersionInfo>
+    <BuildModes Count="3">
+      <Item1 Name="Debug Win32" Default="True"/>
+      <Item2 Name="Release Win32">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="..\Rozeta32"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <UnitOutputDirectory Value="..\lib\$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <SmartLinkUnit Value="True"/>
+            <TargetCPU Value="i386"/>
+            <TargetOS Value="win32"/>
+            <Optimizations>
+              <OptimizationLevel Value="3"/>
+            </Optimizations>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+            </Debugging>
+            <LinkSmart Value="True"/>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+          <Other>
+            <Verbosity>
+              <ShowNotes Value="False"/>
+            </Verbosity>
+            <WriteFPCLogo Value="False"/>
+            <CompilerMessages>
+              <IgnoredMessages idx11031="True" idx11030="True" idx5057="True" idx5024="True" idx5023="True"/>
+            </CompilerMessages>
+          </Other>
+        </CompilerOptions>
+      </Item2>
+      <Item3 Name="Release Win64">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="..\Rozeta64"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <UnitOutputDirectory Value="..\lib\$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <SmartLinkUnit Value="True"/>
+            <TargetCPU Value="x86_64"/>
+            <TargetOS Value="win64"/>
+            <Optimizations>
+              <OptimizationLevel Value="3"/>
+            </Optimizations>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+            </Debugging>
+            <LinkSmart Value="True"/>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+          <Other>
+            <Verbosity>
+              <ShowNotes Value="False"/>
+            </Verbosity>
+            <WriteFPCLogo Value="False"/>
+            <CompilerMessages>
+              <IgnoredMessages idx11031="True" idx11030="True" idx5057="True" idx5024="True" idx5023="True"/>
+            </CompilerMessages>
+          </Other>
+        </CompilerOptions>
+      </Item3>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+    <RunParams>
+      <FormatVersion Value="2"/>
+    </RunParams>
+    <RequiredPackages Count="13">
+      <Item1>
+        <PackageName Value="LazDzHTMLText2"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FrameViewer09"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="JPLaz"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="virtualtreeview_package"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="atflatcontrols_package"/>
+      </Item5>
+      <Item6>
+        <PackageName Value="JvPageCompsR"/>
+      </Item6>
+      <Item7>
+        <PackageName Value="JvStdCtrlsLazR"/>
+      </Item7>
+      <Item8>
+        <PackageName Value="JvCtrlsLazR"/>
+      </Item8>
+      <Item9>
+        <PackageName Value="SynEdit"/>
+      </Item9>
+      <Item10>
+        <PackageName Value="jplib"/>
+      </Item10>
+      <Item11>
+        <PackageName Value="jppacklcl"/>
+      </Item11>
+      <Item12>
+        <PackageName Value="LazGDIPlus"/>
+      </Item12>
+      <Item13>
+        <PackageName Value="LCL"/>
+      </Item13>
+    </RequiredPackages>
+    <Units Count="9">
+      <Unit0>
+        <Filename Value="Rozeta.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="RoseDiagram"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="Rozeta.FormMain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="Rozeta.Misc.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="Rozeta.FormGPFontDialog.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormGPFontDialog"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="Rozeta.FormEditData.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormEditData"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="Rozeta.FormRandomDiagram.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormRandomDiagram"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="Rozeta.FormMeasurementConverter.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormMeasurementConverter"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="Rozeta.AppStrings.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="Rozeta.FormAbout.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormAbout"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit8>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="..\Rozeta32_debug"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="..\lib\$(TargetCPU)-$(TargetOS)_debug"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <IncludeAssertionCode Value="True"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <Checks>
+        <IOChecks Value="True"/>
+        <RangeChecks Value="True"/>
+        <OverflowChecks Value="True"/>
+        <StackChecks Value="True"/>
+      </Checks>
+      <VerifyObjMethodCallValidity Value="True"/>
+      <TargetCPU Value="i386"/>
+      <TargetOS Value="win32"/>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf2Set"/>
+        <UseHeaptrc Value="True"/>
+        <TrashVariables Value="True"/>
+        <UseExternalDbgSyms Value="True"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <Verbosity>
+        <ShowNotes Value="False"/>
+      </Verbosity>
+      <CompilerMessages>
+        <IgnoredMessages idx11031="True" idx11030="True" idx5057="True" idx5024="True"/>
+      </CompilerMessages>
+      <CustomOptions Value="-dDEBUG"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

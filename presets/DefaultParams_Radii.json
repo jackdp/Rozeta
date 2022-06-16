@@ -1,0 +1,15 @@
+{
+  "RoseDiagram" : {
+
+    "Radii" : {
+      "Line" : {
+        "Visible" : true,
+        "Color" : "#C0C0C0",
+        "Width" : 1,
+        "Style" : "Dash",
+        "Transparency" : 0
+      }
+    }
+
+  }
+}

@@ -1,0 +1,120 @@
+object FormRandomDiagram: TFormRandomDiagram
+  Left = 429
+  Height = 238
+  Top = 250
+  Width = 244
+  BorderStyle = bsDialog
+  Caption = 'FormRandomDiagram'
+  ClientHeight = 238
+  ClientWidth = 244
+  FormStyle = fsStayOnTop
+  OnCreate = FormCreate
+  Position = poMainFormCenter
+  LCLVersion = '2.2.2.0'
+  object spedCount: TJPLazSpinEdit
+    Left = 16
+    Height = 23
+    Top = 32
+    Width = 62
+    Alignment = taCenter
+    MaxValue = 1000
+    MinValue = 2
+    TabOrder = 0
+    Value = 100
+    BoundLabel.Height = 15
+    BoundLabel.Width = 142
+    BoundLabel.Caption = 'Number of measurements:'
+    BoundLabel.ParentColor = False
+    BoundLabel.FocusControl = spedCount
+    BoundLabelPosition = lpAbove
+    BoundLabelSpacing = 1
+    RightLabel.Height = 1
+    RightLabel.Width = 1
+    RightLabel.ParentColor = False
+    RightLabel.FocusControl = spedCount
+  end
+  object spedMin: TJPLazSpinEdit
+    Left = 16
+    Height = 23
+    Top = 80
+    Width = 50
+    Alignment = taCenter
+    MaxValue = 360
+    TabOrder = 1
+    BoundLabel.Height = 15
+    BoundLabel.Width = 132
+    BoundLabel.Caption = 'Minimum measurement:'
+    BoundLabel.ParentColor = False
+    BoundLabel.FocusControl = spedMin
+    BoundLabelPosition = lpAbove
+    BoundLabelSpacing = 1
+    RightLabel.Height = 1
+    RightLabel.Width = 1
+    RightLabel.ParentColor = False
+    RightLabel.FocusControl = spedMin
+  end
+  object spedMax: TJPLazSpinEdit
+    Left = 16
+    Height = 23
+    Top = 128
+    Width = 50
+    Alignment = taCenter
+    MaxValue = 360
+    TabOrder = 2
+    Value = 360
+    BoundLabel.Height = 15
+    BoundLabel.Width = 134
+    BoundLabel.Caption = 'Maximum measurement:'
+    BoundLabel.ParentColor = False
+    BoundLabel.FocusControl = spedMax
+    BoundLabelPosition = lpAbove
+    BoundLabelSpacing = 1
+    RightLabel.Height = 1
+    RightLabel.Width = 1
+    RightLabel.ParentColor = False
+    RightLabel.FocusControl = spedMax
+  end
+  object btnOK: TButton
+    Left = 158
+    Height = 25
+    Top = 203
+    Width = 75
+    Action = actOk
+    Anchors = [akRight, akBottom]
+    OnClick = actOkExecute
+    TabOrder = 4
+  end
+  object btnClose: TButton
+    Left = 76
+    Height = 25
+    Top = 203
+    Width = 75
+    Action = actClose
+    Anchors = [akRight, akBottom]
+    OnClick = actCloseExecute
+    TabOrder = 5
+  end
+  object chFloat: TJppCheckBox
+    Left = 18
+    Height = 19
+    Top = 163
+    Width = 192
+    Caption = 'Generate floating point numbers'
+    TabOrder = 3
+    TabStop = True
+  end
+  object Actions: TActionList
+    Images = FormMain.Images
+    Left = 176
+    Top = 72
+    object actOk: TAction
+      Caption = 'OK'
+      OnExecute = actOkExecute
+    end
+    object actClose: TAction
+      Caption = 'Close'
+      OnExecute = actCloseExecute
+      ShortCut = 27
+    end
+  end
+end

@@ -1,0 +1,62 @@
+Files: 9
+Processing file 1 / 9: E:\Projects_G\apps\Rozeta\src\Rozeta.AppStrings.pas
+File size: 13.67 KB
+Lines: 406
+Blank lines: 88
+Not blank lines: 318
+
+Processing file 2 / 9: E:\Projects_G\apps\Rozeta\src\Rozeta.FormAbout.pas
+File size: 1.97 KB
+Lines: 90
+Blank lines: 22
+Not blank lines: 68
+
+Processing file 3 / 9: E:\Projects_G\apps\Rozeta\src\Rozeta.FormEditData.pas
+File size: 2.46 KB
+Lines: 131
+Blank lines: 34
+Not blank lines: 97
+
+Processing file 4 / 9: E:\Projects_G\apps\Rozeta\src\Rozeta.FormGPFontDialog.pas
+File size: 12.63 KB
+Lines: 431
+Blank lines: 79
+Not blank lines: 352
+
+Processing file 5 / 9: E:\Projects_G\apps\Rozeta\src\Rozeta.FormMain.pas
+File size: 110.03 KB
+Lines: 3 217
+Blank lines: 541
+Not blank lines: 2 676
+
+Processing file 6 / 9: E:\Projects_G\apps\Rozeta\src\Rozeta.FormMeasurementConverter.pas
+File size: 4.56 KB
+Lines: 202
+Blank lines: 47
+Not blank lines: 155
+
+Processing file 7 / 9: E:\Projects_G\apps\Rozeta\src\Rozeta.FormRandomDiagram.pas
+File size: 2.21 KB
+Lines: 100
+Blank lines: 24
+Not blank lines: 76
+
+Processing file 8 / 9: E:\Projects_G\apps\Rozeta\src\Rozeta.Misc.pas
+File size: 5.89 KB
+Lines: 248
+Blank lines: 62
+Not blank lines: 186
+
+Processing file 9 / 9: E:\Projects_G\apps\Rozeta\src\Rozeta.lpr
+File size: 1.78 KB
+Lines: 59
+Blank lines: 16
+Not blank lines: 43
+
+Command line: TxtAn64  src\*.pas src\*.lpr -r 0 
+Processed files: 9
+Total size: 155.20 KB
+Elapsed time: 00:00:00.005
+All lines: 4 884
+All blank lines: 913
+All not blank lines: 3 971 

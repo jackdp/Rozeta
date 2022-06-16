@@ -1,0 +1,40 @@
+{
+  "RoseDiagram" : {
+
+    "Axes" : {
+      "Line" : {
+        "Visible" : true,
+        "Color" : "#000000",
+        "Width" : 1,
+        "Style" : "Solid",
+        "Transparency" : 0
+      },
+      "CaptionType" : "degrees",
+      "Text" : {
+        "Visible" : true,
+        "Font" : {
+          "Name" : "Verdana",
+          "Size" : 9,
+          "Color" : "#000000",
+          "Style" : "",
+          "Transparency" : 0
+        }
+      },
+      "PercentMarkers" : {
+        "Visible" : true,
+        "Font" : {
+          "Name" : "Verdana",
+          "Size" : 9,
+          "Color" : "#000000",
+          "Style" : "",
+          "Transparency" : 0
+        },
+        "Color" : "#000000",
+        "Width" : 5,
+        "Transparency" : 0
+      }
+    },
+
+
+  }
+}
