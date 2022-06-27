@@ -8,7 +8,7 @@ set AppName_=Rozeta
 set AppUrl=https://www.pazera-software.com/products/rozeta/
 set CompressionLevel=7
 set CommonFiles=lang\* presets\*.json presets\*.rozt 180.roz 180_symmetry.roz analiza.roz example1.roz example2.roz example3_polygon.roz big_10000.rozx README.txt
-set DocFiles=Readme.md Rozeta_description_EN.md Rozeta_description_PL.md vx_images\*.png
+set DocFiles=Readme.md Rozeta_description_EN.md Rozeta_description_PL.md doc_images\*.png
 
 ::del presets\_LastSession.json
 ren presets\_LastSession.json _LastSession.tmp

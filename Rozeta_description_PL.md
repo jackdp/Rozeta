@@ -34,7 +34,7 @@ Aby wczytać szablon, wybierz menu `Presety` -> `Wczytaj ustawienia diagramu z s
 Program jest całkowicie darmowy (**public domain**) i możesz z niego korzystać bez żadnych ograniczeń, także w celach komercyjnych.
 
 Strona domowa programu (z plikami do pobrania): [https://www.pazera-software.com/products/rozeta/](https://www.pazera-software.com/products/rozeta/)  
-Kod źródłowy: [https://github.com/jackdp/Rozeta](https://github.com/jackdp/Rozeta)
+Kod źródłowy: [https://github.com/jackdp/Rozeta](https://github.com/jackdp/Rozeta)  
 Wsparcie dla autora (dobrowolne): [https://www.pazera-software.com/donation/](https://www.pazera-software.com/donation/)
 
 ## Pomiary
@@ -138,7 +138,7 @@ Pierwszą wersję programu napisałem w 2001 roku, gdy studiowałem geologię.
 Kiedy po raz kolejny dostałem zadanie narysowania diagramu rozetowego, postanowiłem napisać program do kreślenia diagramów rozetowych na podstawie pomiarów zapisanych w pliku tekstowym. Do napisania programu wykorzystałem środowisko programistyczne Borland Delphi 5. Programu nigdy nie udostępniłem (nie miałem wtedy nawet stałego łącza internetowego). Z programu korzystała tylko wąska grupa moich znajomych, którzy wykorzystali go m.in. przy pisaniu prac magisterskich.
 
 Drugą wersję wydałem w roku 2003 (wersja polska) i 2004 (wersja angielska).  
-Program miał już nieco więcej opcji i był dostepny na mojej stronie internetowej. Niestety zawierał kilka błędów, które prawie uniemożliwiały korzystanie z niego w nowszych wersjach systemu Windows, dlatego po kilku latach usunąłem go ze swojej strony.
+Program miał już nieco więcej opcji i był dostępny na mojej stronie internetowej. Niestety zawierał kilka błędów, które prawie uniemożliwiały korzystanie z niego w nowszych wersjach systemu Windows, dlatego po kilku latach usunąłem go ze swojej strony.
 
 Przeglądając kody źródłowe moich starych programów natknąłem się na Rozetę i postanowiłem napisać kolejną wersję, 3-cią.  
 Początkowo chciałem rozbudować wersję 2.0, ale zależało mi aby program był otwartoźródłowy i wykorzystywał tylko darmowe narzędzia programistyczne, więc napisałem Rozetę całkowicie od nowa w środowisku [Lazarus](https://www.lazarus-ide.org/).

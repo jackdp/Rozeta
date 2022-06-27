@@ -32,7 +32,7 @@ To load a template, select menu `Presets` -> `Load diagram settings from a templ
 The program is completely free (**public domain**) and you can use it without any restrictions, also for commercial purposes.
 
 Program home page (with compiled binaries): [https://www.pazera-software.com/products/rozeta/](https://www.pazera-software.com/products/rozeta/)  
-Source code: [https://github.com/jackdp/Rozeta](https://github.com/jackdp/Rozeta)
+Source code: [https://github.com/jackdp/Rozeta](https://github.com/jackdp/Rozeta)  
 Support for the author: [https://www.pazera-software.com/donation/](https://www.pazera-software.com/donation/)
 
 ## Measurements
