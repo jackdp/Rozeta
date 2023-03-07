@@ -1,0 +1,304 @@
+;  UTF-8 Encoding
+;----------------------
+;  %s - string
+;  \n - new line
+;----------------------
+;  Prefixes:
+;    lbl - Label
+;    ed - Edit
+;    cb - ComboBox
+;    ch - CheckBox
+;    rb - RadioButton
+;    act - TAction (can be assigned to buttons, menu items)
+;    btn - Button
+;    mnu - Menu item
+;    sped - SpinEdit
+;    fp - FlipPanel (expandable panel)
+;    col - Column
+;----------------------
+
+[INFO]
+AppName=Rozeta
+AppVersion=3.0
+LangName_InEnglish=Korean
+LangName_Native=한국어 (번역: 비너스걸💋)
+Translator=VenusGirl
+TranslatorUrl=https://venusgirls.tistory.com
+TranslatorEmail=venusgirl@outlook.com
+Date=2022.06.16
+
+[MAIN]
+TabDiagram=다이어그램
+TabMetadata=메타데이터
+TabReport=보고서
+
+fpMain.Header.Caption=기본 옵션
+fpBackground.Header.Caption=배경
+fpFrame.Header.Caption=프레임
+fpCircles.Header.Caption=원
+fpRadii.Header.Caption=반지름
+fpAxes.Header.Caption=축
+fpPies.Header.Caption=원주율
+fpSelectedBins.Header.Caption=선택한 상자
+fpDesc.Header.Caption=제목 및 설명
+fpShortStats.Header.Caption=통계
+
+ChangeColor=색상 변경...
+CopyColor=색상 복사
+PasteColor=색상 복사 붙여넣기
+ChangeFont=글꼴 매개 변수 변경...
+AlphaChannel=알파:
+
+TitleLabel_Bins=상자
+TitleLabel_Lines=선
+TitleLabel_Fill=채우기
+TitleLabel_Title=제목
+TitleLabel_Description=설명
+TitleLabel_Captions=캡션
+TitleLabel_Font=글꼴
+TitleLabel_PercentageMarkers=퍼센트 마커
+
+Line_Visible=보이기
+Line_Color=색상:
+Line_Width=너비:
+Line_Style=스타일:
+Line_Transparency=투명도:
+
+Fill_BackgroundColor=배경 색상:
+Fill_Transparency=투명도:
+Fill_Solid=솔리드 채우기
+Fill_HatchStyle=해치 스타일:
+Fill_HatchColor=해치 색상:
+
+Text_Visible=보이기
+Text_Text=텍스트:
+Text_PosX=X:
+Text_PosY=Y:
+Text_FontTransparencyShort=투명도:
+
+FontStyle_Bold=굵게
+FontStyle_Italic=기울임꼴
+FontStyle_Underline=밑줄
+FontStyle_Strikeout=취소선
+
+SaveQuery=현재 다이어그램이 수정되었습니다.\n변경사항을 저장하시겠습니까?
+PresetFileNotExists=%s에서 설정을 불러올 수 없습니다.\n파일이 존재하지 않습니다!
+
+ButtonDefaultParams=기본값
+
+actDefaultParams_ALL.Caption=기본 다이어그램 설정 적용
+actDefaultParams_Main.Caption=기본 설정 적용 - 기본 옵션
+actDefaultParams_Background.Caption=기본 설정 적용 - 배경
+actDefaultParams_Frame.Caption=기본 설정 적용 - 프레임
+actDefaultParams_Circles.Caption=기본 설정 적용 - 원
+actDefaultParams_Radii.Caption=기본 설정 적용 - 반지름
+actDefaultParams_Axes.Caption=기본 설정 적용 - 축
+actDefaultParams_Pies.Caption=기본 설정 적용 - 원주율
+actDefaultParams_SelectedBins.Caption=기본 설정 적용 - 선택한 상자
+actDefaultParams_Title.Caption=기본 설정 적용 - 제목 및 설명
+
+
+actCopyDiagramToClipboard.Caption=다이어그램을 클립보드에 복사
+actRepaintDiagram.Caption=다시 칠하기
+actReport_CopySelection.Caption=선택한 텍스트 복사
+
+GridBins_ColNo=번호
+GridBins_ColBin=상자
+GridBins_ColCount=계수
+
+mnuLanguage.Caption=언어(&L)
+
+
+spedRadiusMM.BoundLabel.Caption=반지름:
+spedMarginMM.BoundLabel.Caption=여백:
+cbClassSize.BoundLabel.Caption=클래스 크기:
+cbDiagramType.BoundLabel.Caption=다이어그램 크기:
+DiagramType_Rose=장미
+DiagramType_Polygon=다각형
+chDrawInternalPolygonLines.Caption=다각형의 내부 선 그리기
+cbMeasurementType.BoundLabel.Caption=측정 유형:
+MeasurementType_Azimuths=단방향 - 방위각 (0°-360°)
+MeasurementType_Strikes=양방향 (0°-180°)
+chCentralSymmetry.Caption=중심 대칭
+cbLinearMeasurementMode.BoundLabel.Caption=180°보다 작거나 큰 값:
+LinearMeasurementMode_Normalize180=180으로 정규화
+LinearMeasurementMode_Ignore=무시
+
+spedCircles_Count.BoundLabel.Caption=계수:
+cbAxes_CaptionType.BoundLabel.Caption=제목 유형:
+ccbAxes_PercentageMarkers_Color.BoundLabel.Caption=마커 색상:
+spedAxes_PercentageMarkers_Width.BoundLabel.Caption=마커 너비:
+spedAxes_PercentageMarkers_Transp.BoundLabel.Caption=마커 투명도:
+
+; Bin list
+actSelectMaxBins.Caption=최대
+actSelectMaxBins.Hint=최대 측정 횟수가 있는 상자 선택
+actSelectMinBins.Caption=최소
+actSelectMinBins.Hint=최소 측정 횟수가 있는 상자 선택
+actSelectAllBins.Caption=모든 상자 선택
+actSelectAllBins.Hint=모든 상자 선택
+actUnselectAllBins.Caption=모든 상자 선택 취소
+actUnselectAllBins.Hint=모든 상자 선택 취소
+actInvertSelectedBins.Caption=선택 반전
+actInvertSelectedBins.Hint=선택 반전
+dlblSelectedBinCount.Caption=선택한 상자
+dlblSelection.Caption=선택
+dlblSelection.Hint=선택한 상자의 <b>측정 횟수</b>입니다.<br><b>퍼센트</b>로 표시된 총 측정 횟수와 관련하여 선택한 <b>측정 횟수</b>입니다.
+
+; Stats
+dlblMeasurements.Caption=측정
+dlblBinCount.Caption=상자
+dlblSumOfMeasurements.Caption=측정값의 합
+dlblSumOfMeasurements.Hint=모든 측정값의 합
+dlblMeasurementsPerBin.Caption=상자당 측정값
+dlblMeasurementsPerBin.Hint=상자의 평균 측정 횟수
+dlblBinMax.Caption=최대
+dlblBinMax.Hint=상자의 최대 <b>측정 횟수</b>  /  최대 측정 횟수가 있는 <b>상자의 수</b>
+dlblBinMin.Caption=최소
+dlblBinMin.Hint=상자의 최소 <b>측정 횟수</b>  /  최소 측정 횟수가 있는 <b>상자의 수</b>
+dlblBinMinMax_BinsSuffix=상자
+dlblRadius.Caption=반지름
+dlblRadius.Hint=<b>밀리미터</b>로 다이어그램의 <b>반지름</b>입니다.<br>측정값이 가장 많은 상자의 <b>측정값 수</b>를<b>퍼센트</b>로 나타냅니다.
+dlblMean.Caption=측정
+dlblMean.Hint=평균 측정
+dlblStdDev.Caption=표준 편차
+dlblStdDev.Hint=표준 편차
+
+
+
+; Menu - File
+mnuFile.Caption=파일(&F)
+actOpen.Caption=열기...
+actOpen.Hint=장미 다이어그램 파일 열기...
+actSave.Caption=저장
+actSave.Hint=저장
+actSaveAs.Caption=다이어그램을 다음으로 저장...
+actSaveAs.Hint=다이어그램을 다음으로 저장...
+actSaveReport.Caption=보고서 저장...
+actSaveReport.Hint=보고서 저장...
+actSavePng.Caption=다이어그램을 PNG 파일로 저장...
+actSavePng.Hint=다이어그램을 PNG 파일로 저장...
+actEditMeasurements.Caption=측정 편집...
+actEditMeasurements.Hint=측정 목록 편집...
+actCloseFile.Caption=파일 닫기
+actCloseFile.Hint=파일 닫기
+actExit.Caption=종료
+
+; Menu - Tabs
+mnuTabs.Caption=탭(&T)
+
+; Menu - Tools
+mnuTools.Caption=도구(&O)
+actShowFormMeasurementConverter.Caption=각도 측정 변환기...
+actShowFormMeasurementConverter.Hint=각도 측정 변환기...
+actRandomDiagram.Caption=랜덤 다이어그램...
+actRandomDiagram.Hint=랜덤 다이어그램...
+
+; Menu - Panels
+mnuPanels.Caption=패널(&P)
+actShowHideLeftPanel.Caption=왼쪽 패널 표시/숨기기
+actShowHideLeftPanel.Hint=왼쪽 패널 표시/숨기기
+actShowHideRightPanel.Caption=오른쪽 패널 표시/숨기기
+actShowHideRightPanel.Hint=오른쪽 패널 표시/숨기기
+actExpandPanels.Caption=모든 패널 확장
+actCollapsePanels.Caption=모든 패널 접기
+
+; Menu - Presets
+mnuPresets.Caption=프리셋(&S)
+actOpenTemplate.Caption=템플릿에서 다이어그램 설정 불러오기...
+actSaveTemplate.Caption=다이어그램 설정을 템플릿 파일에 저장...
+
+; Menu - Help
+mnuHelp.Caption=도움말(&H)
+actGoTo_HomePage.Caption=프로그램 홈 페이지...
+actGoTo_Github.Caption=Github의 소스 코드......
+actGoTo_Donation.Caption=제작자에 대한 지원...
+actAbout.Caption=정보...
+
+; Metadata
+meMeta_Subject.BoundLabel.Caption=주제:
+meMeta_Author.BoundLabel.Caption=제작자:
+meMeta_Description.BoundLabel.Caption=설명:
+
+; Report
+Report_HtmlLangID=en
+Report_File_Title=파일 정보
+Report_File_Name=파일:
+Report_File_Size=크기:
+Report_File_Created=만든 날짜:
+Report_File_Modified=수정 시간:
+Report_Metadata_Title=메타데이터
+Report_Metadata_Subject=주제
+Report_Metadata_Author=제작자
+Report_Metadata_Description=설명
+Report_Stats_Title=통계
+Report_Stats_NumberOfMeasurements=측정 횟수:
+Report_Stats_NumberOfBins=상자의 수:
+Report_Stats_SumOfMeasurements=측정값의 합:
+Report_Stats_MeasurementsPerBin=상자당 측정값:
+Report_Stats_MaxInBin=상자의 최대 측정 횟수:
+Report_Stats_BinsWithMax=최대 측정 횟수가 포함된 상자 수:
+Report_Stats_MinInBin=상자의 최소 측정 횟수:
+Report_Stats_BinsWithMin=최소 측정값이 있는 상자의 수:
+Report_Stats_Radius=반지름:
+Report_Stats_Average=평균 측정:
+Report_Stats_StdDev=표준 편차:
+Report_Bins_Title=상자
+Report_Bins_No=번호
+Report_Bins_Range=범위
+Report_Bins_Count=계수
+Report_Bins_Percent=퍼센트
+Report_Bins_Average=평균
+Report_Bins_StdDev=표준 편차
+Report_Bins_Measurements=측정
+
+
+
+
+[EditMeasurements]
+Caption=측정
+actUpdateDiagram.Caption=다이어그램 업데이트 (F5)
+lblInfo1.Caption=아래에 측정값을 입력하십시오.
+lblInfo2.Caption=선당 하나의 측정값입니다.
+
+
+[RandomDiagram]
+Caption=랜덤 다이어그램
+spedCount.BoundLabel.Caption=측정 횟수:
+spedMin.BoundLabel.Caption=최소 측정값:
+spedMax.BoundLabel.Caption=최대 측정값:
+chFloat.Caption=부동 소수점 번호 생성
+actOk.Caption=확인
+actClose.Caption=닫기
+Error_MinGreatherThanMax=측정의 최대값은 최소값보다 커야 합니다!
+
+
+[MeasurementConverter]
+Caption=각도 측정 변환기
+lblSource.Caption=소스:
+lblResult.Caption=결과:
+lblConversionType.Caption=변환 유형:
+spedRound.BoundLabel.Caption=값을 반올림
+spedRound.RightLabel.Caption=소수
+cbDecimalSeparator.BoundLabel.Caption=소수 구분 기호:
+actConvert.Caption=변환
+actConvert.Hint=변환
+
+
+
+[FontDialog]
+Caption=글꼴
+cbFontName.BoundLabel.Caption=글꼴:
+spedSize.BoundLabel.Caption=크기:
+ccbColor.BoundLabel.Caption=색상:
+gbFontStyle.Caption=스타일
+edExampleText.BoundLabel.Caption=예제 텍스트:
+spedTransparency.BoundLabel.Caption=투명도:
+lblPreview.Caption=미리보기:
+btnOK.Caption=확인
+btnCancel.Caption=취소
+
+
+[About]
+Caption=제품 정보 - 한국어 (번역: 비너스걸💋)
+Donation=기부하기
